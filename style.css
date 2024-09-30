@@ -1,15 +1,12 @@
-h1, h2{
-    color: #f1a1a1
-}
-p{ color: brown;}
-li{color: brown;}
+h1{font-family: Rubik Mono One; text-align: center; font-size: 400%; color: #f1a1a1}
+p{ color: brown;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+li{color: brown; font-family:Tahoma,italic; font-weight: bold;}
 a{color: brown;}
 .dauphin{color: rgb(69, 206, 206);}
 .tortue{color: rgb(86, 166, 6);}
 .baleine{color: rgb(41, 41, 165);}
-img{ width:400px;height: 300px;}
+img{width:500px;height: 300px}
+html{background-color: rgb(255, 228, 228);}
 body{font-size: xx-large;}
-h1{font-family: Brush Script MT}
-li{font-family: Tahoma,italic;}
-h2{font-family: Brush Script MT;font-size: 250%;}
-h1{font-size: 400%;}
+h2{font-family: Brush Script MT;font-size: 300%; text-decoration: underline; color: #f1a1a1}
+.palmier{width:1900px;height: 500px}
