@@ -1,7 +1,15 @@
 h1, h2{
-    color: #eeafbe
+    color: #f1a1a1
 }
 p{ color: brown;}
 li{color: brown;}
 a{color: brown;}
-img{ width:200px;height: 150px;}
+.dauphin{color: rgb(69, 206, 206);}
+.tortue{color: rgb(86, 166, 6);}
+.baleine{color: rgb(41, 41, 165);}
+img{ width:400px;height: 300px;}
+body{font-size: xx-large;}
+h1{font-family: Brush Script MT}
+li{font-family: Tahoma,italic;}
+h2{font-family: Brush Script MT;font-size: 250%;}
+h1{font-size: 400%;}
