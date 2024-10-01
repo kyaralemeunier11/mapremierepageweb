@@ -1,0 +1,37 @@
+.bacar{
+    font-size: 3.5em; 
+    font-family: Monserrat, sans-serif; 
+    color: #A5B4FC; 
+    text-align: left;
+    font-weight: 200;
+}
+.photo{
+    font-size: 1.1em; 
+    font-family: Manrope; 
+    color: black;
+    font-weight: 100;
+}
+.fraise{
+    font-size: 1em; 
+    font-family: Manrope; 
+    color: black; 
+    font-weight: 100;
+}
+.said{background-color: white;}
+a{
+    font-size: 1em; 
+    font-family: Manrope;
+    text-decoration: none; 
+    color: black; 
+    font-weight: 100;
+    padding: 50px;
+}
+a{ 
+    border-radius: 50px;
+   background-color: #A5B4FC;
+}
+div{
+    border-right: 1px solid #8e86b5; 
+    border-bottom: 1px solid #8e86b5;
+}
+body{font-size: x-large;}
