@@ -1,25 +1,115 @@
 <html>
     <head>
-        <title>Mon formulaire</title>
+        <title>MIAM! Inscription</title>
+        <link rel="stylesheet" href="formulaire.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        <h4>Mon formulaire</h4>
-         <form><!--La balise form permet de créer mon formulaire-->
-            <p>Ceci est mon formulaire.</p>
+        <h4>MIAM!</h4>
+        <p class="miam">S'incrire</p>
+         <form class="ab"><!--La balise form permet de créer mon formulaire-->
             <p>
-               <label>Prénom:</label>
-               <input type="text" name="prenom" placeholder="Votre prénom"/>
+               <input type="text" name="prenom" placeholder="Prénom"/>
             </p>
             <p>
-                <label>Projet professionnel:</label>
-                <textarea name="projet"></textarea>
+                <input type="text" name="nom" placeholder="Nom">
             </p>
             <p>
-                <input type="date">
+                <input type="email" placeholder="Email">
             </p>
             <p>
-                <input>
+                <input type="password" placeholder="Mot de passe">
+            </p>
+            <p>
+                <input type="password" placeholder="Confirmer le mot de passe">
+            </p>
+            <p>
+                <input type="checkbox">J'accepte les conditions et la charte de confidentialité.*
+            </p>
+            <p>
+                <input  class="bouton" type="button" value="Je m'incris">
             </p>
          </form>
+         <form><!--Début 2E formulaire-->
+            <h4 class="miam">Ce qui m'intéresse!</h4>
+            <fieldset>
+                <legend>Catégories</legend>
+                <br>
+                <div>
+                  <input type="radio"/>
+                  <label>Entrées</label>
+                </div>
+            
+                <div>
+                  <input type="radio"/>
+                  <label>Plats</label>
+                </div>
+              
+                <div>
+                  <input type="radio"/>
+                  <label>Desserts</label>
+                </div>
+
+                <div>
+                    <input type="radio"/>
+                    <label>Boissons</label>
+                  </div>
+                </fieldset>
+                <legend>Recettes</legend>
+                <br>
+                <div>
+                  <input type="radio"/>
+                  <label>Sans sucre</label>
+                </div>
+              
+                <div>
+                  <input type="radio"/>
+                  <label>Sans gluten</label>
+                </div>
+              
+                <div>
+                  <input type="radio"/>
+                  <label>Sans lactose</label>
+                </div>
+            
+                <legend>Préférences</legend>
+                <br> 
+                <div>
+                <input type="radio"/>
+                <label>Végétariennes</label>
+                </div>
+                  
+                <div>
+                <input type="radio"/>
+                <label>Vegan</label>
+                </div>
+            
+                <legend>Recettes du Monde</legend>
+                <br> 
+                <div>
+                <input type="radio"/>
+                <label>Europe</label>
+                </div>
+                  
+                <div>
+                <input type="radio"/>
+                <label>Asie</label>
+                </div>
+
+                <div>
+                <input type="radio"/>
+                <label>Afrique</label>
+                </div>
+                      
+                <div>
+                <input type="radio"/>
+                <label>Amérique du sud</label>
+                </div>
+                <br>
+                <input type="submit">
+        </form>
     </body>
 </html>
